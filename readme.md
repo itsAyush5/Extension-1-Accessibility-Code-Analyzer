@@ -1,5 +1,10 @@
 🔍 Web-Based Accessibility Analysis Tool
 A comprehensive, universal accessibility analyzer that detects accessibility issues in code written in any programming language or framework - built entirely with HTML, CSS, and JavaScript.
+
+![image](https://github.com/user-attachments/assets/42af7d2d-15ba-4e4e-9918-6ab6cd7cdf98)
+![image](https://github.com/user-attachments/assets/8eba369e-57bd-4cf5-9be0-e7a27ddb9b0d)
+![image](https://github.com/user-attachments/assets/4503a26f-e610-4583-a120-73328e06adf5)
+
 ✨ Features
 🌐 Universal Language Support
 
@@ -103,7 +108,7 @@ html<!-- ❌ Accessibility Issues -->
 
 <!-- ✅ Accessible Version -->
 <div class="card">
-  <img src="product.jpg" alt="Wireless Bluetooth Headphones - Black">
+  <img src="product.jpg" alt="Wireless Bluetooth Headphones">
   <h3>Product Name</h3>
   <p>Product description</p>
   <button type="button" onclick="addToCart()" aria-describedby="cart-help">
@@ -221,7 +226,7 @@ Supported WCAG Success Criteria
 3.3.2 Labels or Instructions
 4.1.2 Name, Role, Value
 
-🤝 Contributing
+🤝 Contributing :
 How to Contribute
 
 Report Issues: Found a bug or missing check? Open an issue
@@ -250,8 +255,6 @@ newRuleName: {
     title: 'Issue Title',
     description: 'Detailed description of the issue and fix.'
 }
-📝 License
-This project is open source and available under the MIT License.
 🙏 Acknowledgments
 
 WCAG Guidelines for accessibility standards
@@ -259,12 +262,5 @@ WebAIM for accessibility resources
 A11y Community for best practices
 MDN Web Docs for web standards documentation
 
-📞 Support
-
-Documentation: See examples and usage guide above
-Issues: Report bugs or request features via GitHub issues
-Community: Join accessibility discussions and share feedback
-
-
-Made with ❤️ for a more accessible web
+Made with ❤️ by Ayush Devspace.
 Help make the internet accessible to everyone by using this tool in your development workflow!
