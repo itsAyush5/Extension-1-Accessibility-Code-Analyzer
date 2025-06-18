@@ -2,7 +2,10 @@
 A comprehensive, universal accessibility analyzer that detects accessibility issues in code written in any programming language or framework - built entirely with HTML, CSS, and JavaScript.
 
 ![image](https://github.com/user-attachments/assets/42af7d2d-15ba-4e4e-9918-6ab6cd7cdf98)
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/8eba369e-57bd-4cf5-9be0-e7a27ddb9b0d)
+<br><br>
 ![image](https://github.com/user-attachments/assets/4503a26f-e610-4583-a120-73328e06adf5)
 
 ✨ Features
@@ -233,21 +236,7 @@ Report Issues: Found a bug or missing check? Open an issue
 Suggest Features: Ideas for new accessibility checks
 Add Rules: Contribute new accessibility detection rules
 Improve UI: Enhance the user interface and experience
-Documentation: Help improve documentation and examples
-
-Development Setup
-bash# No build process needed!
-# Simply edit the HTML file and test in browser
-
-# For local development server:
-python -m http.server 8000
-# or
-npx serve .
-Adding New Accessibility Rules
-javascript// Add to the rules object in the JavaScript section
-newRuleName: {
-    patterns: [
-        /your-regex-pattern/gi,
+gex-pattern/gi,
         /another-pattern/gi
     ],
     severity: 'error|warning|info',
@@ -262,5 +251,10 @@ WebAIM for accessibility resources
 A11y Community for best practices
 MDN Web Docs for web standards documentation
 
-Made with ❤️ by Ayush Devspace.
+<strong>Made with ❤️ by Ayush Devspace.</strong>
+<br>
+<br>
+Visit my Portfolio site (https://ayush-devspace5.web.app) or visit my Instagram account or visit my LinkedIn account to connect with me.
+<br>
+<br>
 Help make the internet accessible to everyone by using this tool in your development workflow!
