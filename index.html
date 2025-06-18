@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Analysis Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Accessibility Analysis Tool</h1>
+            <p>Analyze your code for accessibility issues across any programming language or framework</p>
+        </div>
+
+        <div class="main-content">
+            <div class="panel">
+                <h2>
+                    <svg class="icon" viewBox="0 0 20 20">
+                        <path
+                            d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+                    </svg>
+                    Code Input
+                </h2>
+
+                <div class="language-selector">
+                    <select id="languageSelect">
+                        <option value="html">HTML</option>
+                        <option value="react">React/JSX</option>
+                        <option value="vue">Vue.js</option>
+                        <option value="angular">Angular</option>
+                        <option value="css">CSS</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="typescript">TypeScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python (Django/Flask)</option>
+                        <option value="ruby">Ruby on Rails</option>
+                        <option value="csharp">C# (ASP.NET)</option>
+                        <option value="java">Java (Spring)</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <textarea id="codeInput" class="code-input" placeholder="Paste your code here...
+
+Example HTML:
+<div class='card'>
+  <img src='image.jpg'>
+  <h3>Card Title</h3>
+  <p>Description</p>
+  <button onclick='doSomething()'>Click</button>
+</div>
+
+Example React:
+function MyComponent() {
+  return (
+    <div className='container'>
+      <input type='text' />
+      <button>Submit</button>
+    </div>
+  );
+}"></textarea>
+
+                <button id="analyzeBtn" class="analyze-btn">
+                    🔍 Analyze Accessibility
+                </button>
+            </div>
+
+            <div class="panel">
+                <h2>
+                    <svg class="icon" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Quick Tips
+                </h2>
+                <div style="color: #6b7280; line-height: 1.6;">
+                    <p><strong>✨ Universal Analysis:</strong> This tool analyzes code in any language by detecting
+                        accessibility patterns and anti-patterns.</p>
+                    <br>
+                    <p><strong>🎯 What we check :</strong></p>
+                    <ul style="margin: 10px 0; padding-left: 20px;">
+                        <li>Missing alt text for images.</li>
+                        <li>Form labels and associations.</li>
+                        <li>Semantic HTML usage.</li>
+                        <li>Color contrast considerations.</li>
+                        <li>Keyboard navigation support.</li>
+                        <li>ARIA attributes and roles.</li>
+                        <li>Focus management.</li>
+                        <li>Screen reader compatibility.</li>
+                    </ul>
+                    <br>
+                    <p><strong>💡 Pro Tip :</strong> Works with frameworks like React, Vue, Angular, and libraries like
+                        Bootstrap, Tailwind CSS, etc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-panel" id="resultsPanel">
+            <div class="empty-state">
+                <svg class="vg" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3>Ready to analyze your code!</h3>
+                <p>Paste your code above and click the analyze button to get started.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

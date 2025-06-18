@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Accessibility Code Analyzer",
+  "version": "1.0.0",
+  "description": "Analyze code for accessibility issues and compliance across any programming language or framework",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Accessibility Code Analyzer",
+    "default_icon": {
+      "16": "icons/accessibility 16.png",
+      "32": "icons/accessibility 32.png",
+      "64": "icons/accessibility 64.png",
+      "128": "icons/accessibility 128.png"
+    }
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icons/accessibility 16.png",
+    "32": "icons/accessibility 32.png",
+    "64": "icons/accessibility 64.png",
+    "128": "icons/accessibility 128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "style.css",
+        "script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
